@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Social Moderno</title>
+        <lik rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awsome/6.5.2/css/all.min.css">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, sans-serif;
+            }
+            body{
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(135deg,#0f172a,#1e293b,#334155);
+            }
+            .container{
+                width: 420px;
+                padding: 40px;
+                border-radius: 25px;
+                background:rgba(255,255,255,0.08);
+                backdrop-filter: blur(20px);
+                box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+                text-align: center;
+                color: white;
+            }
+            h1{
+                margin-bottom: 15px;
+                font-size: 32px;
+            }
+            p{
+                margin-bottom: 35px;
+                color: #d1d6db;
+            }
+            .login-buttons{
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+            }
+            .btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 12px;
+                padding: 16px;
+                border: none;
+                border-radius: 14px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: 0.3s;
+                color: white;
+            }
+            .btn i{
+                font-size: 20px;
+            }
+            .google {
+                background: #Db4437;
+            }
+            .google:hover{
+                background: #b93226;
+                transform: translateY(-3px);
+            }
+            .instagram{
+                background: linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+            }
+            .instagram:hover{
+                transform: translateY(-3px);
+                opacity:0.9px;
+            }
+            .linkedin{
+                background: #0077B5;
+            }
+            .linkedin:hover{
+                background: #005f91;
+                transform: translateY(-3px);
+            }
+            .footer{
+                margin-top: 30px;
+                font-size: 14px;
+                color: #94a3b8;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Bem-vindo</h1>
+            <p>Entre utilizando sua conta favorita.</p>
+            <div class="login-buttons">
+                <button class="btn google">
+                    <i class="fa-brands fa-google"></i>
+                    Entrar com Gmail
+                </button>
+                <button class="btn instagram">
+                    <i class="fa-brands fa-instagram"></i> 
+                    Entrar com Instagram
+                </button>
+                <button class="btn linkedin">
+                    <i class="fa-brands fa-linkedin"></i> 
+                    Entrar com LinkedIn
+                </button>
+        </div>
+        <div>
+            <div class="footer">
+                Login Social • Interface Moderna 2026
+            </div>
+        </div>
+    </body>
+</html>
